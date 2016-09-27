@@ -575,7 +575,7 @@ func PrintDnsResult(s *State, r *Result) {
 	} else if s.ShowIPs {
 		fmt.Printf("Found: %s [%s]\n", r.Entity, r.Extra)
 	} else {
-		fmt.Printf("Found: %s\n", r.Entity)
+		fmt.Printf("%s\n", r.Entity) //Simpler output
 	}
 }
 
