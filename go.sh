@@ -1,0 +1,1 @@
+go run main.go -m dns -w h -t 100 -u $1
